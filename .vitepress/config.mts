@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'My Blog',
   description: '技术记录',
+  base: '/blogs/',
 
   themeConfig: {
     // 顶部导航
