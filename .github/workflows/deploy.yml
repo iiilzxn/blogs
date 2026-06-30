@@ -1,5 +1,9 @@
 name: 部署到 GitHub Pages
 
+permissions:
+  contents: write
+  pages: write
+
 on:
   push:
     branches: [main]
