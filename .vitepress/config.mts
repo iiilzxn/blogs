@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'My Blog',
   description: '技术记录',
   base: '/blogs/',
-  srcExclude: ['说明.md'],
+  srcExclude: ['说明.md', 'CLAUDE.md'],
 
   themeConfig: {
     // 顶部导航
@@ -19,6 +19,7 @@ export default defineConfig({
         {
           text: 'Java 面试题',
           items: [
+            { text: '概述', link: '/java-interview/' },
             { text: 'Java 基础面试题', link: '/java-interview/java-basics' },
           ]
         }
